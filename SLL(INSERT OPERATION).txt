@@ -27,11 +27,11 @@ class LinkedList:
     def get_tail(self):
         return self.__tail
 
-    #This method is added for this tryout alone
+   
     def set_head(self,new_node):
         self.__head=new_node
 
-    #This method is added for this tryout alone
+   
     def set_tail(self,new_node):
         self.__tail=new_node
 
@@ -92,7 +92,5 @@ list1=LinkedList()
 list1.add('Sugar')
 list1.add('Milk')
 list1.add('Rice')
-#Add all the required element(s)
-#Insert the element in the required position
 list1.insert("Curd","Sugar")
 list1.display()
